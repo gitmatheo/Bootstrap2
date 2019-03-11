@@ -1,0 +1,16 @@
+.authors {
+  img {
+    margin-top: -50px;
+  }
+
+  .card {
+    transition: all 0.3s;
+    &:hover {
+      background: $primary;
+      color: #fff;
+      & * i.fab {
+        color: white;
+      }
+    }
+  }
+}
