@@ -2,7 +2,12 @@
   position: relative;
   background: url("../img/mountains.jpg");
   min-height: 600px;
-
+  @media (max-width: 768px) {
+    min-height: 500px;
+    h1 {
+      font-size: 4rem;
+    }
+  }
   .primary-overlay {
     background: $primary-overlay;
     position: absolute;
